@@ -1,0 +1,50 @@
+:root {
+  /* Mobile-first variables */
+  --mobile: 375px;
+  --desktop: 1440px;
+}
+
+/* Media query for mobile */
+@media (max-width: 375px) {
+  :root {
+    /* Mobile-specific variables */
+  }
+}
+
+/* Media query for desktop */
+@media (min-width: 376px) {
+  :root {
+    /* Desktop-specific variables */
+  }
+}
+
+:root {
+  --tomato: hsl(4, 100%, 67%);
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+:root {
+
+  --font-family: 'Roboto', sans-serif;
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+}
+
+.font-h1{
+    font-size: 3.5rem;
+    line-height: 100%;
+font-family: var(--font-family);
+font-weight: var(--font-weight-700);
+color: var(--dark-slate-grey);
+margin-bottom: 1.5rem;
+}
+
+.font-paragraph{
+    font-size: 1rem;
+    line-height: 150%;
+font-family: var(--font-family);
+font-weight: var(--font-weight-400);
+}
